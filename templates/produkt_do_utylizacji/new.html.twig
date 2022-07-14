@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New ProduktDoUtylizacji{% endblock %}
+
+{% block body %}
+
+
+    {{ include('produkt_do_utylizacji/_form.html.twig') }}
+
+    <a href="{{ path('app_produkt_do_utylizacji_index') }}">Wróć do listy</a>
+{% endblock %}
